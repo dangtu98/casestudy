@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Nhập Thông Tin</title>
+    <link rel="stylesheet" href="dangnhapcss.css">
+
+</head>
+<body>
+<div class="container">
+<form id="login" action="quanlyhanghoa.html" method="post">
+    <h1>QUẢN LÝ KHO HÀNG</h1>
+    <p>Account</p>
+    <label for="dangnhap">
+        <input id="dangnhap" type="email" placeholder="email">
+    </label>
+    <br/>
+    <br/>
+    <p>Password</p>
+    <label for="matkhau">
+        <input id="matkhau" type="password" placeholder="mật khẩu">
+    </label>
+    <br/>
+    <br/>
+    <button type="submit" onclick="checkAccount()">Login</button>
+</form>
+</div>
+</body>
+<script src="dangnhap.js"></script>
+</html>
