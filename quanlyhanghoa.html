@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Hàng</title>
+    <link rel="stylesheet" href="quanlyhang.css">
+
+
+</head>
+<body>
+<div class="quanly">
+    <h4><a href="trangchu.html">Về Trang Chủ</a></h4>
+    <h1><b>NHẬP HÀNG HÓA </b></h1>
+    <label>Mã Sản Phẩm : <input type="number" id="masp"></label>
+    <br/>
+    <br/>
+    <label>Tên Sản Phẩm: <input type="text" id="tensp"></label>
+    <br/>
+    <br/>
+    <label>Số Lượng SP :<input type="number" id="soluong"></label>
+    <br/>
+    <br/>
+    <label>Giá Nhập SP:<input type="number" id="gianhap"></label>
+    <br/>
+    <br/>
+    <label>Giá Bán SP:<input type="number" id="giaban"></label>
+    <br/>
+    <br/>
+    <button id="addbtn" onclick="addData()">Nhập Hàng</button>
+    <button id="editbtn" onclick="editData()">Sửa Thông Tin</button>
+    <h2>Thông Tin Hàng Hóa</h2>
+    <p id="thongtin"></p>
+</div>
+<script src="quanlyhang.js"></script>
+
+
+</body>
+</html>
