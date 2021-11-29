@@ -93,18 +93,17 @@
     float: left;
     height: 1500px;
 }
-input{
-    background-color: tomato;
-    cursor: pointer;
-}
-#shoes{
+
+.anh_hove{
     transition: 1s;
-        clear: right;
+    clear: right;
 }
-#shoes:hover {
-    width: 350px;
-    height: 350px;
+.anh_hove:hover{
+    width: 400px;
+    height: 400px;
 }
+
+
 
 /*thông tin sản phẩm*/
 
@@ -143,6 +142,17 @@ input{
     padding: 0 130px;
     text-align: center;
     line-height:50px;
+}
+button{
+    font-size: 25px;
+    background-color: tomato;
+    cursor: pointer;
+}
+b{
+    font-size: 30px;
+}
+p{
+ font-size: 25px;
 }
 
 
