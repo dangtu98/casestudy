@@ -10,20 +10,22 @@
 <body>
 <div class="quanly">
     <h4><a href="trangchu.html">Về Trang Chủ</a></h4>
+    <span id ="hienthongbao" style="color: white; font-size: 40px"></span>
     <h1><b>NHẬP HÀNG HÓA </b></h1>
-    <label>Mã Sản Phẩm : <input type="number" id="masp"></label>
+
+    <label>Mã Sản Phẩm : <input type="number" id="masp" required></label>
     <br/>
     <br/>
-    <label>Tên Sản Phẩm: <input type="text" id="tensp"></label>
+    <label>Tên Sản Phẩm: <input type="text" id="tensp" required></label>
     <br/>
     <br/>
-    <label>Số Lượng SP :<input type="number" id="soluong"></label>
+    <label>Số Lượng SP :<input type="number" id="soluong" required></label>
     <br/>
     <br/>
-    <label>Giá Nhập SP:<input type="number" id="gianhap"></label>
+    <label>Giá Nhập SP:<input type="number" id="gianhap" required></label>
     <br/>
     <br/>
-    <label>Giá Bán SP:<input type="number" id="giaban"></label>
+    <label>Giá Bán SP:<input type="number" id="giaban" required></label>
     <br/>
     <br/>
     <button id="addbtn" onclick="addData()">Nhập Hàng</button>
