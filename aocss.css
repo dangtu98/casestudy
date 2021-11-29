@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1300px;
+    margin: auto;
+}
+.header{
+    height: 60px;
+    background-color: #21243d;
+}
+.top_menu{
+    display: inline-block;
+}
+.top_menu li{
+    display: inline-block;
+    line-height: 60px;
+}
+.top_menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 40px;
+}
+.top_menu li a:hover {
+    color: tomato;
+    background-color: wheat;
+    display: inline-block;
+}
+#sub {
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+}
+
+#phone{
+    color: white;
+    font-size: 26px;
+    line-height: 60px;
+}
+.banner{
+    position: relative;
+    padding-top: 50% ;
+    background-image: url("slider/mobile_productlist_theearth.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.name_shop{
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+}
+.name_shop_text{
+    color: #21243d;
+    font-size: 90px;
+    font-style: italic;
+    font-family: fantasy;
+}
+#color_k{
+    color: white;
+}
+#sanpham{
+    width: 100%;
+    height: 60px;
+}
+#tieude_1{
+    text-align: center;
+    background-color: #21243d;
+    color: white;
+    font-size: 50px;
+}
+#left{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    float: left;
+}
+#right{
+    width: 50%;
+    height:  auto;
+    background-color: white;
+    float: left;
+}
+input{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #21243d;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li p {
+    font-size: 20px;
+    color: white;
+    padding: 0 130px;
+    text-align: center;
+    line-height:50px;
+}
+
+
+

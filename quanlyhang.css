@@ -1,0 +1,43 @@
+body{
+    background-color: #21243d;
+}
+.quanly{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color: tomato;
+}
+h2{
+    color: tomato;
+}
+label{
+    color: white;
+    font-size: 30px;
+}
+button{
+    background-color: yellow;
+    width: 140px;
+    height: 42px;
+}
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: white;
+    width: 100%;
+
+}
+tr, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+h4 a{
+    color: white;
+    font-size: 30px;
+}
+h4 a:hover{
+    color: aqua;
+}
+
